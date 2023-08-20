@@ -1,9 +1,10 @@
 import React from 'react'
 import Input from './Input'
+import Center from '../Center/Center'
 
 export default {
     title: 'Form/Input',
-    component: Input
+    component: Input,
 }
 
 export const Small = () => <Input size='small' placeholder='Small size' />
